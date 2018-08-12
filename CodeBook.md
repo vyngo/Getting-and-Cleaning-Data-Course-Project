@@ -1,7 +1,7 @@
 
 ## 1. Data
-Data the the project was obtained from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-Full Description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+* Data the the project was obtained from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+* Full Description: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## 2. R script
 Source file "run_analysis.R" perform 7 following steps:
@@ -22,7 +22,7 @@ Source file "run_analysis.R" perform 7 following steps:
   7.1. Averages of each variable for each activity and each subject and order the result by subjectId and activityId
   7.2. Writes the tidy data in tidyData.txt  
 
-## 3. Variables:   
+## 3. Variables   
 * `x_train`, `y_train`, `subject_train` contain the original train data.
 * `x_test`, `y_test`, `subject_test` contain the original test data.
 * `feature` contains the feature names.
